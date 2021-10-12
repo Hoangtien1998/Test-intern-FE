@@ -1,0 +1,33 @@
+                        .footer {
+                            // .sub-info {
+                            //     &-left {
+                            //         background-color: red;
+                            //     }
+                            //     &-right {
+                            //         background-color: yellow;
+                            //     }
+                            // }
+                            // .connects {
+                            //     display: flex;
+                            //     justify-content: space-between;
+                            //     align-items: center;
+                            //     background-color: gray;
+                            // }
+                            .table {
+                                background-color: #ffff;
+                                width: 100%;
+                                padding: 34px 0px 34px 34px;
+                                .header-table {
+                                    font-size: 20px;
+                                    color: #111;
+                                    padding: 8px;
+                                }
+                                .body-table {
+                                    padding: 8px;
+                                }
+                                .footer-table {
+                                    // display: flex;
+                                    // align-content: flex-end;
+                                }
+                            }
+                        }

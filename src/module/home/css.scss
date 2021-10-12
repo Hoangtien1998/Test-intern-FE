@@ -1,0 +1,94 @@
+    @import '../../styles/colors';
+    // @mixin title {
+    //     font-size: 16px;
+    //     font-weight: 600;
+    //     color: '#007bff';
+    // }
+    ._Wht30s_main {
+        // width: 1920px;
+        // height: 9691px;
+        background-color: #fff;
+    }
+    
+    // &-body {
+    //     @include title()
+    // }
+    // }
+    // .footer {
+    //     @include title()
+    // }
+    .home {
+        .img1 {
+            width: 100%;
+            height: 1000px;
+        }
+        .img2 {
+            position: relative;
+            img {
+                width: 100%;
+            }
+            .What-Happened {
+                width: 562px;
+                height: 37px;
+                font-size: 50px;
+                font-weight: 800;
+                letter-spacing: 5px;
+                text-align: left;
+                color: #fff;
+                position: absolute;
+                top: 174px;
+                left: 174px;
+            }
+            .how-to {
+                position: absolute;
+                top: 270px;
+                left: 174px;
+                width: 667px;
+                height: 125px;
+                font-size: 20px;
+                text-align: left;
+                color: #fff;
+            }
+        }
+    }
+    
+    .img3 {
+        width: 100%;
+        height: 1000px;
+        background-size: cover;
+        .content {
+            width: 100%;
+            height: 38.8%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .Best-Product {
+            width: 463px;
+            height: 37px;
+            margin: 0 29px 49px;
+            font-size: 50px;
+            font-weight: bold;
+            letter-spacing: 5px;
+            text-align: center;
+            color: #f96400;
+        }
+        .how-to2 {
+            width: 665px;
+            height: 52px;
+            font-size: 20px;
+            line-height: 1.6;
+            letter-spacing: normal;
+            text-align: center;
+            color: #f96400;
+        }
+    }
+    
+    // @media only screen and (max-width: 600px) {
+    //     .home {
+    //         p {
+    //             color: white;
+    //         }
+    //     }
+    // }

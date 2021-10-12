@@ -1,0 +1,39 @@
+.header {
+    height: 80px;
+    padding: 24px 120px 27px 97px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left {
+        object-fit: contain;
+    }
+    &-right {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+        width: 50%;
+        .apply-for-free-use {
+            font-size: 14px;
+            color: #fff;
+        }
+        .solution {
+            font-size: 14px;
+            color: #fff;
+        }
+        .Rate-plan {
+            font-size: 14px;
+            text-align: center;
+            color: #fff;
+        }
+        .login {
+            font-size: 14px;
+            color: #fff;
+        }
+        .apply-for-free-use {
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+}
